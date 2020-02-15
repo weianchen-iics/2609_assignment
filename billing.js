@@ -12,7 +12,6 @@ function billingCopy(sameAsShipping) {
 }
 
 function billingCheck() {
-	// Checking the Name fields
 	var shipName = document.getElementById('shippingName');
 	var billName = document.getElementById('billingName');
 	
@@ -22,7 +21,6 @@ function billingCheck() {
 		document.getElementById('name-alert').innerHTML = "The names match.";
 	}
 	
-	// Checking the Zip Code fields
 	var shipZip = document.getElementById('shippingZip');
 	var billZip = document.getElementById('billingZip');
 	
